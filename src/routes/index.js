@@ -5,5 +5,20 @@ Vue.use(VueRouter)
 
 export default new VueRouter({
 mode: 'history',
-routes: [] 
+routes: [
+  {
+    path: '/',
+    component: Index,
+    name: 'index',
+  },
+  {
+    path: '/about',
+    component: About,
+    name: 'about',
+  },
+  {
+    path: '/detail/:id',
+    component: DetailId
+  }
+] 
 })
