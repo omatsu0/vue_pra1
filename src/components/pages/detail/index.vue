@@ -11,21 +11,21 @@
 
 <script>
 export default {
-  data() {
+  data () {
     return {
       list: [
-        { id: "001", name: "Aさん" },
-        { id: "002", name: "Bさん" },
-        { id: "003", name: "Cさん" },
-        { id: "004", name: "Dさん" },
-        { id: "005", name: "Eさん" }
+        { id: '001', name: 'Aさん' },
+        { id: '002', name: 'Bさん' },
+        { id: '003', name: 'Cさん' },
+        { id: '004', name: 'Dさん' },
+        { id: '005', name: 'Eさん' }
       ]
-    };
+    }
   },
   methods: {
-    move(id) {
-      this.$router.push(`/detail/${id}`);
+    move (id) {
+      this.$router.push(`/detail/${id}`)
     }
   }
-};
+}
 </script>

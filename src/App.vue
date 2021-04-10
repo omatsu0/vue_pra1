@@ -24,8 +24,8 @@
 
 <script>
 export default {
-  name: 'App',
-};
+  name: 'App'
+}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
